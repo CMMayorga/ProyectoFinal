@@ -1,0 +1,198 @@
+@font-face{ 
+    font-family: 'monstercat';
+    src: url('../fonts/geometry_soft_pro-bold_a-webfont.eot');
+    src: url('../fonts/geometry_soft_pro-bold_a-webfont.eot?#iefix') format('embedded-opentype'),
+        url(../fonts/geometry_soft_pro-bold_a-webfont.woff) format('woff'),
+        url('../fonts/geometry_soft_pro-bold_a-webfont.ttf') format('truetype'),
+        url('../fonts/geometry_soft_pro-bold_a-webfont.eot') format('svg');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    text-decoration: none;
+}
+body,html{
+    font:1em/1.5 sans-serif;
+    overflow: hidden;
+    height: 100%;
+}
+h1,h2{
+    font-weight: 300;
+}
+li{
+    list-style: none;
+    color:#181d20;
+}
+span{
+    color:#A80000;
+}
+
+/*LOGIN*/
+
+body.login {
+    background: url(../../..//vista/site_media/img/brick_bricks_pattern_1920x1080.jpg);
+    color:#fff;
+    font-family: monstercat;
+}
+body.login #login{
+    width: 30%;
+    margin: 10% auto;
+}
+body.login a{
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+body.login h1{
+    font-size: 4em;
+    text-align: center;
+    margin: 20px;
+}
+
+/*Formulario_____________________________________________*/
+input,textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border:1px solid #ccc;
+}
+select{
+    margin-bottom: 10px;
+}
+input[type="submit"]{
+    border:none;
+    background: rgba(255,255,255,.8);
+    cursor:pointer;
+}
+input[type="submit"]:hover{
+    background: #fff;
+}
+
+/*HEADER*/
+
+header{
+    color: #fff;
+    background: #000;
+    width: 100%;
+    font-family: monstercat;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 50px;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    z-index: 100;
+}
+
+header h1{
+    float: left;
+    margin-left: 20px;
+}
+
+header nav{
+    float: right;
+    margin-right: 10px;
+}
+
+header nav ul li{
+    float: left;
+    padding: 15px; 
+}
+
+header nav ul li a{
+    color: #fff;
+    
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    -ms-transition: all .5s;
+}
+header nav ul li a:hover{
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+}
+
+.saludo{
+    background: rgba(255,255,255,.5);
+}
+
+/*CONTENIDO*/
+
+body.cms{
+    background: #333;
+    color: #fff;
+}
+
+section{
+    padding: 20px;
+    margin: 20px;
+}
+
+/*Listar/Tabla____________________________________________*/
+table{
+    width: 100%;
+    text-align: left;
+    margin-top: 20px;
+    font-size: .8em;
+}
+
+table th{
+    color:#fff;
+    padding-bottom: 20px;
+}
+table tr:hover{
+    background: rgba(255,255,255,.1);
+}
+table td{
+    border-top: 1px solid #fff;
+    font-weight: 300;
+    padding: 10px 0;
+}
+table td a{
+    color:#fff;
+    font-size: 1.5em;
+    
+    -webkit-transition: all .5s;
+}
+
+table td a:hover{
+    color:tomato;
+    
+    -webkit-transform: scale(2);
+}
+
+table span{
+    color:#ddd;
+    float: left;
+    margin-right: 5px;
+}
+table .orden a{
+    color:#848788;
+    font-size: .9em;
+}
+
+.ins{
+    background: rgba(255,255,255,.3);
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+    
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    -ms-transition: all .5s;
+}
+
+.ins:hover{
+    color: #fff;
+    
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+}
